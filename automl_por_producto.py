@@ -19,7 +19,7 @@ if ColabNotebook:
     DATOS_DIR = '/content/drive/MyDrive/Colab Notebooks/DATOS/'      # carpeta donde se encuentran los datasets
 else:
     # configuración para notebook con instalación LOCAL
-    SALIDAS_DIR = '../Salidas'         # carpeta donde se encuentran archivos .py auxiliares
+    SALIDAS_DIR = '../Salidas/'         # carpeta donde se encuentran archivos .py auxiliares
     DATOS_DIR   = '../Datos/' # carpeta donde se encuentran los datasets
 
 import pandas as pd
